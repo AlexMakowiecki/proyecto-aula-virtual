@@ -5,6 +5,15 @@ Permite consultar, crear y eliminar productos desde la terminal.
 
 **Autor:** Alex Makowiecki
 
+> [!NOTE]
+> **Uso de IA (Claude).** Durante el desarrollo usé Claude (Anthropic) como apoyo. En todos los casos, la lógica del programa la escribí yo.
+>
+> - **Material del curso:** me ayudó a leer y resumir la consigna y el contenido de las clases 05 y 06.
+> - **Consultas puntuales:** le pregunté sobre conceptos de JavaScript y Node, como métodos de strings, `Number()`, el uso de `fetch` o convenciones para nombrar funciones.
+> - **Revisión del código:** me marcó los errores y los casos que no estaban cubiertos, y yo hice las correcciones. También probó qué valida y qué no la FakeStore API.
+> - **Últimos detalles:** quitó un `console.log` de depuración y corrigió las tildes de los mensajes.
+> - **Git y documentación:** subió el proyecto a GitHub y redactó este README.
+
 ---
 
 ## Requisitos
@@ -110,15 +119,3 @@ Todo el programa está en `index.js`:
 - **Destructuring y rest/spread:** `const [method, endpoint, ...values] = args`.
 - **Métodos de strings y arrays:** `split`, `slice` y `trim`.
 - **Manejo de errores** con `throw new Error(...)` y un único `try/catch`.
-
----
-
-## Uso de IA (Claude)
-
-Durante el desarrollo usé Claude (Anthropic) como apoyo. En todos los casos, la lógica del programa la escribí yo.
-
-- **Material del curso:** me ayudó a leer y resumir la consigna y el contenido de las clases 05 y 06.
-- **Consultas puntuales:** le pregunté sobre conceptos de JavaScript y Node, como métodos de strings, `Number()`, el uso de `fetch` o convenciones para nombrar funciones.
-- **Revisión del código:** me marcó los errores y los casos que no estaban cubiertos, y yo hice las correcciones. También probó qué valida y qué no la FakeStore API.
-- **Últimos detalles:** quitó un `console.log` de depuración y corrigió las tildes de los mensajes.
-- **Git y documentación:** subió el proyecto a GitHub y redactó este README.
