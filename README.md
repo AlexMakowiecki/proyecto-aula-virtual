@@ -6,13 +6,13 @@ Permite consultar, crear y eliminar productos desde la terminal.
 **Autor:** Alex Makowiecki
 
 > [!NOTE]
-> **Uso de IA (Claude).** Durante el desarrollo usé Claude (Anthropic) como apoyo. En todos los casos, la lógica del programa la escribí yo.
+> **Uso de IA.** En el desarrollo se utilizó Claude (Anthropic) como herramienta de apoyo. La lógica del programa es de autoría propia.
 >
-> - **Material del curso:** me ayudó a leer y resumir la consigna y el contenido de las clases 05 y 06.
-> - **Consultas puntuales:** le pregunté sobre conceptos de JavaScript y Node, como métodos de strings, `Number()`, el uso de `fetch` o convenciones para nombrar funciones.
-> - **Revisión del código:** me marcó los errores y los casos que no estaban cubiertos, y yo hice las correcciones. También probó qué valida y qué no la FakeStore API.
-> - **Últimos detalles:** quitó un `console.log` de depuración y corrigió las tildes de los mensajes.
-> - **Git y documentación:** subió el proyecto a GitHub y redactó este README.
+> - **Material del curso:** lectura y resumen de la consigna y del contenido de las clases 05 y 06.
+> - **Consultas puntuales:** conceptos de JavaScript y Node, como métodos de strings, `Number()`, el uso de `fetch` y convenciones de nombres.
+> - **Revisión del código:** detección de errores y de casos no cubiertos, que luego se corrigieron. También se usó para verificar qué valida y qué no la FakeStore API.
+> - **Ajustes finales:** eliminación de un `console.log` de depuración y corrección de tildes en los mensajes.
+> - **Documentación y publicación:** redacción de este README y publicación del proyecto en GitHub.
 
 ---
 
