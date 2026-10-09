@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-aula-virtual",
+  "version": "1.0.0",
+  "description": "Proyecto de Node hecho para el curso de Aula Virtual BA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Makowiecki",
+  "license": "ISC",
+  "type": "module"
+}
