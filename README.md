@@ -6,7 +6,16 @@ Permite consultar, crear y eliminar productos desde la terminal.
 **Autor:** Alex Makowiecki
 
 > [!NOTE]
-> **Uso de IA.** En el desarrollo se utilizó Claude (Anthropic) como herramienta de apoyo. La lógica del programa es de autoría propia.
+> **Uso de IA.** En el desarrollo se utilizó Claude (Anthropic) como herramienta de apoyo.
+>
+> **Realizado por el autor, sin IA:**
+>
+> - Configuración del proyecto: `npm init`, `"type": "module"` y script `start`.
+> - Escritura de todo el código del programa: lectura de argumentos, peticiones con `fetch`, validaciones y manejo de errores.
+> - Diseño de la solución: función genérica para las peticiones, headers por defecto, devolución de `null` ante respuestas vacías y un único `try/catch` global.
+> - Corrección de los errores señalados en la revisión.
+>
+> **Con asistencia de IA:**
 >
 > - **Material del curso:** lectura y resumen de la consigna y del contenido de las clases 05 y 06.
 > - **Consultas puntuales:** conceptos de JavaScript y Node, como métodos de strings, `Number()`, el uso de `fetch` y convenciones de nombres.
